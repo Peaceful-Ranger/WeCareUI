@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipsFragment"
+    android:background="#A9D2E4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Safety Tips"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="1.Carry a pepper spray with you, always and keep it handy."
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="2.Hold your bag as tightly as you can when you are taking public transport.You can use it to hit your preadtor"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="3.When you are walking on a road, keep your mobile phone handy but avoid using it. Being on the phone makes you less alert. "
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="4.When you are travelling in an auto alone, make sure you share the auto number with someone in your family even if it's during the day "
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="5.If you have booked a cab, always share your coordinates with someone."
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="6.When in office, avoid going to isolated areas with no CCTV cameras"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="7.If you have parked your car, always look underneath, especially at night or at less-crowded area."
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="8.Whenever you are posting anything on social media, make sure you don't do it in real-time."
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="9.Always ensure you aren't posting anything on your social media with your address or phone number on it."
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="10.If you feel someone is stalking you, try to find a crowded place and call someone for help."
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

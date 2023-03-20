@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9D2E4"
+    tools:context=".MyProfileFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="My Profile"
+           android:textSize="30dp"
+           android:textStyle="bold"
+           android:textColor="#000"
+           android:gravity="center"
+           android:layout_marginTop="35dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="35dp"
+           android:layout_marginTop="50dp"
+           android:gravity="center"
+           android:background="@drawable/edittext_bg_color"
+           android:text="Parth Kulkarni"
+           android:textColor="#000"
+           android:textSize="20dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="35dp"
+           android:layout_marginTop="50dp"
+           android:gravity="center"
+           android:text="abc@gmail.com"
+           android:background="@drawable/edittext_bg_color"
+           android:textColor="#000"
+           android:textSize="20dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="35dp"
+           android:layout_marginTop="50dp"
+           android:background="@drawable/edittext_bg_color"
+           android:gravity="center"
+           android:text="1234567890"
+           android:textColor="#000"
+           android:textSize="20dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="35dp"
+           android:layout_marginTop="50dp"
+           android:background="@drawable/edittext_bg_color"
+           android:gravity="center"
+           android:text="B+"
+           android:textColor="#000"
+           android:textSize="20dp"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="35dp"
+           android:layout_marginTop="50dp"
+           android:background="@drawable/edittext_bg_color"
+           android:gravity="center"
+           android:text="Pune, India"
+           android:textColor="#000"
+           android:textSize="20dp"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_margin="45dp"
+           android:text="Back to main menu"
+           android:id="@+id/backBtn"/>
+
+
+   </LinearLayout>
+    </ScrollView>
+</FrameLayout>
